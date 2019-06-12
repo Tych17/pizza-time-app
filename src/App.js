@@ -4,16 +4,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#345eb5"}}>
       <header className="App-header">
-        
-        <p>
-          Welcome to PizzaTime!!!
-        </p>
-        
-        <p>This is gonna be greater.. </p> grater..
-
+        Today's Specials  
       </header>
+       
+      <div>
+        Cheese
+      </div>
+
+      <div>
+        Pepperoni
+      </div>
+
+      <div>
+        Supreme
+      </div>
+      
+
     </div>
   );
 }
