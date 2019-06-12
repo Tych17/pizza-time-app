@@ -1,28 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Load in other views here
+import Specials from './Specials';
 
+
+// Very simple layout for now; Eventually need to set up navigation
 function App() {
   return (
-    <div className="App" style={{backgroundColor: "#345eb5"}}>
-      <header className="App-header">
-        Today's Specials  
-      </header>
-       
-      <div>
-        Cheese
-      </div>
+    <Specials />
 
-      <div>
-        Pepperoni
-      </div>
-
-      <div>
-        Supreme
-      </div>
-      
-
-    </div>
   );
 }
 

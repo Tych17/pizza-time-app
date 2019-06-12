@@ -1,18 +1,14 @@
 .App {
   text-align: center;
   min-height: 100vh;
+  max-width: 600px;
+  max-height: 900px;
   background-color: #345eb5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .App-header {
@@ -24,17 +20,4 @@
   max-height: 92px;
   min-height: 10vh;
   width: 100vw;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
